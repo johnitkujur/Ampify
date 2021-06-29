@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: black;
+    height: 720px;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    /* background: url(bgImg.jpg) no-repeat center center fixed;
+    background-size: cover; */
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset {
+    background-color: white;
+    color: black;
+    border-radius: 75px;
+    padding: 1.5% 5% 5% 5%;
+}
+
+form {
+    width: 400px;
+}
+
+a {
+    color: rgb(92, 92, 235);
+    text-decoration: none;
+}
+
+input, button {
+    padding: 2%;
+    border-radius: 150px;
+    font-size: 16px;
+    width: 250px;
+    font-weight: bold;
+}
+
+.button {
+    color: white;
+    width: 270px;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    font-size: 20px;
+}
+

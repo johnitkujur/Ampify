@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('bgpic.jpg');
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    background-color: white;
+    opacity: 40%;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    column-gap: 5px;
+    /* background-color: lightsalmon; */
+    height: 100%;
+}
+
+.mainBody {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    background-color: white;
+    opacity: 40%;
+}
+
+.sidebar {
+    border-style: solid;
+}
+
+.display {
+    border-style: solid;
+}
+
+
+/* .sidebar {
+    background-color: lightpink;
+} */
+
+/* .sidebar:hover {
+    display: ;
+    width: 150px;
+    background-color: lightskyblue;
+} */
+
+.main {
+    display: grid;
+    grid-template-rows: 7fr 3fr;
+}
+
+.player {
+    background-color: white;
+    opacity: 40%;
+    /* position: absolute;
+    width: 80%;
+    bottom: 0; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+   
+  .playpause-track,
+  .prev-track,
+  .next-track {
+    padding: 25px;
+    opacity: 0.8;
+   
+    transition: opacity .2s;
+  }
+   
+  .playpause-track:hover,
+  .prev-track:hover,
+  .next-track:hover {
+    opacity: 1.0;
+  }
+   
+  .slider_container {
+    width: 75%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .seek_slider, .volume_slider {
+      width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: black;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+
+/*   #songsHeader {
+    text-align: center;
+}
+
+  #favHeader {
+      text-align: center;
+      display: none;
+  }
+ */
